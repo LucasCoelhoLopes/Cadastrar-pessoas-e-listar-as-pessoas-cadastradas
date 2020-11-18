@@ -7,7 +7,6 @@ def cadastro():
     pessoa = input('Informe o nome da pessoa que deseja cadastar: ')
 
     return_tratar_nome = tratar_nome(pessoa)
-    print
 
     if return_tratar_nome == True:
         return_tratar_pessoa = tratar_pessoa(pessoa)
