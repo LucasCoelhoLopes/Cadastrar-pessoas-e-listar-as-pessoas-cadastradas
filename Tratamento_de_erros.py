@@ -23,7 +23,8 @@ def tratar_nome(nome):
 def tratar_pessoa(pessoa):
     diretorio_pessoas = 'C:\\Python Projects\\Exercício 4\\Pessoas\\Pessoas.txt'
     lista_pessoas = []
-
+    
+    #Armazeno as pessoas cadastradas em uma lista e crio o arquivo ".txt" caso ele não exista.
     try:
         with open(diretorio_pessoas) as conteudo:
             for line in conteudo:
