@@ -8,7 +8,6 @@ def tratar_opcao(opcao):
     else:
         return False
 
-
 def tratar_nome(nome):
     nome_separado = nome.split(' ')
 
